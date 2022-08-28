@@ -1,0 +1,203 @@
+/*font-family: 'Noto Sans', sans-serif;*/
+@font-face {
+    src: url("/fonts/Recoleta-RegularDEMO.otf");
+    font-family: "Recoleta";
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #e5e5e5;
+}
+.content{
+    max-width: 1550px;
+    margin: 0 auto;
+}
+.container{
+    padding: 0 130px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+h1 h2 h3 h4 h5 p {
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    margin: 0;
+}
+.text{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+#hero-section{
+    background-color: #163A24;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FBFAF7;
+    margin-left: 24px;
+}
+.nav-btn{
+    background: #198C36;
+    border: none;
+    border-radius: 160px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FBFAF7;
+    padding: 15px 25px;
+}
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-title{
+    width: 391px;
+    height: 196px;
+    color: #FBFAF7;
+    margin-bottom: 18px;
+}
+.hero-text{
+    width: 475px;
+    height: 81px;
+    color: #FBFAF7;
+    margin: 0;
+}
+.hero-img{
+    margin-left: 22px;
+    width: 55%;
+}
+.info-sec-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.info-img{
+    width: 492px;
+    height: 510px;
+    margin-right: 100px;
+}
+.info-title{
+    width: 325px;
+    height: 108px;
+    color: #163A24;
+}
+.info-text{
+    width: 374px;
+    height: 54px;
+    color: #163A24;;
+}
+.info-sec-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+}
+.info-img2{
+   width: 492px;
+    height: 423px;
+    margin-left: 112px;
+}
+.partners-title{
+    text-align: center;
+    color: #163A24;
+    margin-top: 115px;
+    margin-bottom: 65px;
+}
+.partners-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partners-item{
+    margin: 0 43px;
+}
+#safe{
+    background-color: #163A24;
+    margin-top: 114px;
+    padding-bottom: 140px;
+}
+.safe-title{
+    text-align: center;
+    color: #FBFAF7;
+    padding: 66px 0;
+}
+.safe-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.safe-item{
+   text-align: center;
+}
+.safe-text{
+    text-align: center;
+    color: #FBFAF7
+}
+.safe-text2{
+    text-align: center;
+    color: #FBFAF7;
+}
+#artists{
+    background-color: #F2EFE6;
+    padding: 140px 130px;
+    display: flex;
+    justify-content: center;
+}
+.artists-desc{
+   margin-left: 196px;
+}
+.artists-title{
+    width: 740px;
+    height: 108px;
+    text-align: center;
+    color: #163A24;
+
+}
+.artists-text{
+    width: 760px;
+    height: 54px;
+    margin-top: 27px;
+    margin-bottom: 7px;
+    text-align: center;
+    color: #163A24;
+}
+
