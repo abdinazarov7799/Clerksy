@@ -78,6 +78,7 @@ h1 h2 h3 h4 h5 p {
     line-height: 22px;
     color: #FBFAF7;
     padding: 15px 25px;
+    cursor: pointer;
 }
 .hero{
     width: 100%;
@@ -199,6 +200,9 @@ h1 h2 h3 h4 h5 p {
     margin-bottom: 7px;
     text-align: center;
     color: #163A24;
+}
+.artists-img{
+    box-sizing: border-box;
 }
 #characters{
     margin-top: 167px;
@@ -333,6 +337,188 @@ h1 h2 h3 h4 h5 p {
     text-align: center;
     color: #FBFAF7;
     cursor: pointer;
+}
+#e-book{
+    padding: 130px 0;
+}
+.e-book-desc{
+    margin-right: 130px;
+}
+.e-book-title{
+    width: 360px;
+    height: 108px;
+    color: #163A24;
+}
+.e-book-text{
+    width: 287px;
+    height: 27px;
+    color: #163A24;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+.e-book-btn{
+    width: 191px;
+    height: 52px;
+    background: #198C36;
+    border-radius: 160px;
+    border: none;
+    padding: 15px 25px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FBFAF7;
+    cursor: pointer;
+}
+#banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #163A24;
+
+}
+.banner-desc{
+    margin-top: 114px;
+}
+.banner-title{
+    text-align: center;
+    color: #FBFAF7;
+}
+.banner-text{
+    margin-top: 26px;
+    margin-bottom: 18px;
+    text-align: center;
+    color: #FBFAF7;
+}
+.banner-btn{
+    width: 258px;
+    height: 52px;
+    display: flex;
+    align-self: center;
+    box-sizing: border-box;
+    padding: 15px 22px;
+    background: #FAB5A0;
+    border: none;
+    border-radius: 160px;
+    text-align: center;
+    color: #163A24;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+}
+#signup{
+    background: #F2EFE6;
+}
+.signup-sec{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.signup-title{
+    color: #163A24;
+}
+.signup-text{
+    font-size: 18px;
+    line-height: 27px;
+    color: #163A24;
+    margin-top: 26px;
+}
+.input-group{
+    width: 590px;
+    height: 54px;
+    box-sizing: border-box;
+    display: flex;
+}
+.input{
+    width: 553px;
+    height: 53px;
+    padding-left: 15px;
+    background: #FFFFFF;
+    border: 1px solid #F2EFE6;
+    border-radius: 255px;
+}
+.input:focus{
+    outline: none;
+    box-shadow: 2px 2px 15px #e5e5e5;
+}
+.signup-btn{
+    width: 111px;
+    height: 57px;
+    position: absolute;
+    margin-left: 480px;
+    border: none;
+    background: #15762E;
+    border-radius: 160px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FBFAF7;
+    cursor: pointer;
+}
+.privacy-text{
+    width: 524px;
+    height: 42px;
+    margin-top: 11px;
+    margin-bottom: 0;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #163A24;
+}
+.privacy-text span{
+    color: #198C36;
+}
+#footer{
+
+}
+.footer-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.footer-title{
+    width: 242px;
+    height: 36px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #163A24;
+}
+.icon-list{
+    list-style-type: none;
+    display: flex;
+}
+.icon-item{
+    margin-left: 15px;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text{
+    font-size: 14px;
+    line-height: 21px;
+    color: #163A24;
+}
+.footer-list{
+    list-style-type: none;
+    display: flex;
+}
+.footer-item{
+    margin-left: 15px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #198C36;
 }
 
 
