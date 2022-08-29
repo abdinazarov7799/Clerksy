@@ -6,7 +6,7 @@
 body{
     margin: 0 auto;
     padding: 0;
-    background-color: #e5e5e5;
+    background-color: #fff;
 }
 .content{
     max-width: 1550px;
@@ -316,9 +316,6 @@ h1 h2 h3 h4 h5 p {
     background-image: url("/images/price-img3.svg");
     background-repeat: no-repeat;
     background-position: center;
-}
-.price-col{
-    width: 20%;
 }
 .price-btn{
     display: inherit;
